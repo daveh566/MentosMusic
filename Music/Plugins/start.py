@@ -35,7 +35,7 @@ pstart_markup=InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton("Summon Me ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ], 
-                [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Chutuya-11-27")],
+                [InlineKeyboardButton("Command's", url=f"https://telegra.ph/IntimacyVcPlayer-11-29")],
                 [
                     InlineKeyboardButton(
                         "Movies Channel", url=f"https://t.me/intimacyfolksmovies"), 
