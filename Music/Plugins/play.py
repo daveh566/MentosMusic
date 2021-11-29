@@ -54,7 +54,7 @@ def time_to_seconds(time):
         int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":")))
     )
 
-@Client.on_message(command(["play", "play@MentosMusicBot"]))
+@Client.on_message(command(["play", "play@IntimacyVcPlayBot"]))
 async def play(_, message: Message):
     chat_id = message.chat.id
 #   if not await is_served_chat(chat_id):
@@ -153,7 +153,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/ToxicCybers"
+        link = "https://t.me/Kayaspirerproject"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
