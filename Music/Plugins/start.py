@@ -21,7 +21,7 @@ from Music.MusicUtilities.database.sudo import (get_sudoers, get_sudoers, remove
 def start_pannel():  
     buttons  = [
             [
-                InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Mentos-Music-11-27")
+                InlineKeyboardButton(text="Commands Menu", url="https://telegra.ph/IntimacyVcPlayer-11-29-2")
             ],
             [ 
                 InlineKeyboardButton(text="📨Movies Channel", url="https://t.me/intimacyfolksmovies"),
@@ -35,7 +35,7 @@ pstart_markup=InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton("Summon Me ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ], 
-                [InlineKeyboardButton("Command's", url=f"https://telegra.ph/IntimacyVcPlayer-11-29")],
+                [InlineKeyboardButton("Commands", url=f"https://telegra.ph/IntimacyVcPlayer-11-29")],
                 [
                     InlineKeyboardButton(
                         "Movies Channel", url=f"https://t.me/intimacyfolksmovies"), 
@@ -63,7 +63,7 @@ async def welcome(_, message: Message):
                 await remove_active_chat(chat_id)
             if member.id == BOT_ID:
                 out = start_pannel()
-                await message.reply_text(f"Welcome To MentosMusic Music\n\nPromote me as administrator in your group otherwise I will not function properly.", reply_markup=InlineKeyboardMarkup(out[1]))
+                await message.reply_text(f"Welcome To IntimacyVcPlayer Music\n\nPromote me as administrator in your group otherwise I will not function properly.", reply_markup=InlineKeyboardMarkup(out[1]))
                 return
         except:
             return
