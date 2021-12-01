@@ -19,7 +19,8 @@ Hey Welcome To Here 💫💫 You Can Make Your Own Music Bot For Music 🎶
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/daveh566/MentosMusic">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
-[![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/daveh566/UltroidCliTemplate&envs=SESSION_NAME,OWNER_ID,ASS_ID,LOG_GROUP_ID,API_ID,SUDO_USERS,DURATION_LIMIT,BOT_TOKEN&MONGO_DB_URL)
+
+[![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/daveh566/MentosMusic&envs=SESSION_NAME,OWNER_ID,ASS_ID,LOG_GROUP_ID,API_ID,SUDO_USERS,DURATION_LIMIT,BOT_TOKEN&MONGO_DB_URL)
 
 ## CREDIT 💕
 ```
